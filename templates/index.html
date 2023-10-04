@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geography Guessing Game</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #map {
+            height: 500px;
+            width: 800px;
+        }
+        button {
+            margin-top: 10px;
+        }
+        #result, #poi-name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Slepá mapa na Zeměpis by Matyáš Matta</h1>
+    <div id="map" style="height: 500px; width: 800px;"></div>
+    <button onclick="submitGuess()">Submit Guess</button>
+    <div id="result"></div>
+    <h2>Point of Interest:</h2>
+    <p id="poi-name"></p>
+
+    <script>
+        var map = L.map('map').setView([50.0, 14.0], 10);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 8,
+        }).addTo(map);
+
+        var marker;
+        var poiList = [
+            ["Vltava", [50.104686, 14.410436]],
+            ["Charles Bridge", [50.086698, 14.413000]],
+            ["Prague Castle", [50.091688, 14.396901]]
+        ];
+        var currentPoiIndex = 0;
+        var actualCoords;
+
+        function onMapClick(e) {
+            if (marker) {
+                map.removeLayer(marker);
+            }
+            marker = L.marker(e.latlng).addTo(map);
+        }
+
+        map.on('click', onMapClick);
+
+        function submitGuess() {
+            if (marker) {
+                var guessCoords = marker.getLatLng();
+                var distance = calculateDistance(guessCoords, actualCoords);
+                document.getElementById('result').innerHTML = 'You are approximately ' + distance + ' kilometers away from the target.';
+                // Move to the next POI
+                currentPoiIndex++;
+                if (currentPoiIndex < poiList.length) {
+                    setNewPoi();
+                } else {
+                    document.getElementById('result').innerHTML += "<br>End of the game.";
+                }
+            } else {
+                document.getElementById('result').innerHTML = 'Please set a pin on the map first.';
+            }
+        }
+
+        function calculateDistance(guessCoords, actualCoords) {
+            return L.latLng(guessCoords).distanceTo(actualCoords) / 1000;
+        }
+
+        function setNewPoi() {
+            // Clear the previous marker
+            if (marker) {
+                map.removeLayer(marker);
+            }
+            // Set the new POI
+            var currentPoi = poiList[currentPoiIndex];
+            actualCoords = currentPoi[1];
+            document.getElementById('poi-name').innerHTML = currentPoi[0];
+        }
+
+        // Initialize with the first POI
+        setNewPoi();
+    </script>
+</body>
+</html>
