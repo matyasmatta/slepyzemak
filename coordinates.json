@@ -55,8 +55,8 @@
         "type": "river"
     },
     "Kamenice": {
-        "latitude": 50.7384373,
-        "longitude": 15.2716086,
+        "latitude": 50.8002428,
+        "longitude": 14.4092992,
         "type": "river"
     },
     "Malše": {
@@ -204,10 +204,25 @@
         "longitude": 15.406949892632378,
         "type": "water"
     },
+    "České údolí": {
+        "latitude": 49.71760605,
+        "longitude": 13.359927326507126,
+        "type": "dam"
+    },
+    "Pastviny": {
+        "latitude": 50.07504495,
+        "longitude": 16.55970164834443,
+        "type": "dam"
+    },
+    "Šance": {
+        "latitude": 49.511249199999995,
+        "longitude": 18.41569778573863,
+        "type": "dam"
+    },
     "Brněnská přehrada": {
-        "latitude": 49.252003,
-        "longitude": 16.484622335183925,
-        "type": "water"
+        "latitude": 49.2324601,
+        "longitude": 16.51910370056818,
+        "type": "dam"
     },
     "Černé": {
         "latitude": 49.1794083,
@@ -267,6 +282,46 @@
     "Berounka": {
         "latitude": 49.9719009,
         "longitude": 13.7862543,
+        "type": "river"
+    },
+    "Tichá Orlice": {
+        "latitude": 49.9888713,
+        "longitude": 16.3990035,
+        "type": "river"
+    },
+    "Divoká Orlice": {
+        "latitude": 50.0959807,
+        "longitude": 16.4065498,
+        "type": "river"
+    },
+    "Vydra": {
+        "latitude": 49.0681517,
+        "longitude": 13.508316,
+        "type": "river"
+    },
+    "Křemelná": {
+        "latitude": 49.1444058,
+        "longitude": 13.3760179,
+        "type": "river"
+    },
+    "Blanice": {
+        "latitude": 49.6444981,
+        "longitude": 14.8583609,
+        "type": "river"
+    },
+    "Volyňka": {
+        "latitude": 49.114527,
+        "longitude": 13.8337173,
+        "type": "river"
+    },
+    "Radbuza": {
+        "latitude": 49.5429918,
+        "longitude": 13.0474448,
+        "type": "river"
+    },
+    "Střela": {
+        "latitude": 50.0363791,
+        "longitude": 13.2814435,
         "type": "river"
     }
 }

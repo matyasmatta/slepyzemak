@@ -13,7 +13,7 @@ def process_csv(file_path):
         mapping = {
             'řeka': ['river', 'waterway'],
             'jezero': ['lake', 'water'],
-            'přehrada': ['reservoir', 'water'],
+            'přehrada': ['reservoir', 'water', 'dam'],
             'rybník': ['reservoir', 'water', 'lake'],
             # Add more mappings as needed
         }
@@ -81,7 +81,7 @@ def main():
             else:
                 f.write(f"Coordinates for {place} not found\n")
     progress_bar.close()
-    with open("coordinates.json", "w") as json_file:
+    with open("coordinates.json", "w", encoding="utf8") as json_file:
         json.dump(data, json_file, indent=4, ensure_ascii=False)
 
 

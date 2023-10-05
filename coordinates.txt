@@ -8,9 +8,9 @@ Labe Match 4: 50.4672731, 14.2363504
   Building Type: river
 Labe Match 5: 50.2580299, 14.528894
   Building Type: river
-√öpa Match 1: 50.5628921, 15.9214815
+⁄pa Match 1: 50.5628921, 15.9214815
   Building Type: river
-√öpa Match 2: 50.7076728, 15.803662
+⁄pa Match 2: 50.7076728, 15.803662
   Building Type: river
 Metuje Match 1: 50.4145339, 16.1682945
   Building Type: river
@@ -18,54 +18,54 @@ Orlice Match 1: 50.197896, 15.9693805
   Building Type: river
 Orlice Match 2: 49.9888713, 16.3990035
   Building Type: river
-Coordinates for Tich√° not found
-Coordinates for Divok√° not found
+Coordinates for Tich· not found
+Coordinates for Divok· not found
 Chrudimka Match 1: 49.8592042, 15.8025735
   Building Type: river
 Vltava Match 1: 49.3351337, 14.2970732
   Building Type: river
-Oh≈ôe Match 1: 50.2907444, 13.0151862
+Oh¯e Match 1: 50.2907444, 13.0151862
   Building Type: river
-B√≠lina Match 1: 50.5267515, 13.7123925
+BÌlina Match 1: 50.5267515, 13.7123925
   Building Type: river
 Cidlina Match 1: 50.3140014, 15.4328319
   Building Type: river
 Jizera Match 1: 50.5773947, 15.1405138
   Building Type: river
-Plouƒçnice Match 1: 50.6743914, 14.5976669
+PlouËnice Match 1: 50.6743914, 14.5976669
   Building Type: river
 Kamenice Match 1: 50.7384373, 15.2716086
   Building Type: river
 Kamenice Match 2: 50.8002427, 14.4092992
   Building Type: river
-Mal≈°e Match 1: 48.7376492, 14.5112165
+Malöe Match 1: 48.7376492, 14.5112165
   Building Type: river
-Mal≈°e Match 2: 48.892287, 14.5011213
+Malöe Match 2: 48.892287, 14.5011213
   Building Type: river
-Lu≈ænice Match 1: 48.8421324, 14.9217083
+Luûnice Match 1: 48.8421324, 14.9217083
   Building Type: river
-Lu≈ænice Match 2: 48.8170799, 14.9340679
+Luûnice Match 2: 48.8170799, 14.9340679
   Building Type: river
-Lu≈ænice Match 3: 48.854606, 14.906604
+Luûnice Match 3: 48.854606, 14.906604
   Building Type: river
-Lu≈ænice Match 4: 48.8145952, 14.9291114
+Luûnice Match 4: 48.8145952, 14.9291114
   Building Type: river
-Ne≈æ√°rka Match 1: 49.0842827, 14.8718878
+Neû·rka Match 1: 49.0842827, 14.8718878
   Building Type: river
-S√°zava Match 1: 49.7195764, 15.2000752
+S·zava Match 1: 49.7195764, 15.2000752
   Building Type: river
-≈Ωelivka Match 1: 49.5438399, 15.2036881
+éelivka Match 1: 49.5438399, 15.2036881
   Building Type: river
 Coordinates for Odra not found
 Ostravice Match 1: 49.6446796, 18.3655333
   Building Type: river
-Ol≈°e Match 1: 49.7015957, 18.636267
+Olöe Match 1: 49.7015957, 18.636267
   Building Type: river
 Opava Match 1: 50.0030222, 17.8072951
   Building Type: river
 Moravice Match 1: 49.8805394, 17.5951314
   Building Type: river
-Coordinates for Lu≈æick√° Nisa not found
+Coordinates for Luûick· Nisa not found
 Morava Match 1: 49.3597062, 17.3094202
   Building Type: river
 Morava Match 2: 50.0616899, 16.9268927
@@ -74,19 +74,19 @@ Morava Match 3: 49.5797061, 17.2630928
   Building Type: river
 Morava Match 4: 49.6738249, 17.1821701
   Building Type: river
-Desn√° Match 1: 50.031511, 17.0599634
+Desn· Match 1: 50.031511, 17.0599634
   Building Type: river
-Desn√° Match 2: 50.7459612, 15.310959
+Desn· Match 2: 50.7459612, 15.310959
   Building Type: river
-Beƒçva Match 1: 49.5221053, 17.6228575
+BeËva Match 1: 49.5221053, 17.6228575
   Building Type: river
-Beƒçva Match 2: 49.3202334, 18.1435267
+BeËva Match 2: 49.3202334, 18.1435267
   Building Type: river
-Beƒçva Match 3: 49.4585755, 18.1805178
+BeËva Match 3: 49.4585755, 18.1805178
   Building Type: river
-Ol≈°ava Match 1: 49.0282351, 17.669996
+Olöava Match 1: 49.0282351, 17.669996
   Building Type: river
-Han√° Match 1: 49.3296391, 17.1594114
+Han· Match 1: 49.3296391, 17.1594114
   Building Type: river
 Dyje Match 1: 48.8319746, 16.1468898
   Building Type: river
@@ -100,75 +100,80 @@ Svitava Match 1: 49.482763, 16.6080544
   Building Type: river
 Svratka Match 1: 49.4007294, 16.3644314
   Building Type: river
-Ro≈æmberk Match 1: 49.0401358, 14.788900064039733
+Roûmberk Match 1: 49.0401358, 14.788900064039733
   Building Type: water
 Bezdrev Match 1: 49.04756425, 14.386603750718834
   Building Type: water
-Deht√°≈ô Match 1: 49.00466045, 14.29339928082949
+Deht·¯ Match 1: 49.00466045, 14.29339928082949
   Building Type: water
-Horusick√Ω rybn√≠k Match 1: 49.15703205, 14.672324468798493
+Horusick˝ rybnÌk Match 1: 49.15703205, 14.672324468798493
   Building Type: water
-Svƒõt Match 1: 48.99387455, 14.747971103950288
+SvÏt Match 1: 48.99387455, 14.747971103950288
   Building Type: water
-Svƒõt Match 2: 49.551112, 14.37168823430029
+SvÏt Match 2: 49.551112, 14.37168823430029
   Building Type: water
-Jord√°n Match 1: 49.42373335, 14.663657946983594
+Jord·n Match 1: 49.42373335, 14.663657946983594
   Building Type: water
-Jord√°n Match 2: 49.183225, 14.11554634894427
+Jord·n Match 2: 49.183225, 14.11554634894427
   Building Type: water
-Jord√°n Match 3: 49.2007275, 13.934384173037973
+Jord·n Match 3: 49.2007275, 13.934384173037973
   Building Type: water
-Jord√°n Match 4: 50.16371055, 15.464895278964498
+Jord·n Match 4: 50.16371055, 15.464895278964498
   Building Type: water
-≈Ωehu≈àsk√Ω rybn√≠k Match 1: 50.1441916, 15.3402090268136
+éehuÚsk˝ rybnÌk Match 1: 50.1441916, 15.3402090268136
   Building Type: water
-M√°chovo jezero Match 1: 50.58319005, 14.65063948835726
+M·chovo jezero Match 1: 50.58319005, 14.65063948835726
   Building Type: water
-Velk√© D√°≈ôko Match 1: 49.63945835, 15.895662392447324
+VelkÈ D·¯ko Match 1: 49.63945835, 15.895662392447324
   Building Type: water
 Coordinates for Lipno not found
-Coordinates for Hnƒõvkovice not found
-Coordinates for Ko≈ôensko not found
-Orl√≠k Match 1: 49.1111478, 15.406949892632378
+Coordinates for HnÏvkovice not found
+Coordinates for Ko¯ensko not found
+OrlÌk Match 1: 49.1111478, 15.406949892632378
   Building Type: water
-Orl√≠k Match 2: 49.24435525, 16.401814690387095
+OrlÌk Match 2: 49.24435525, 16.401814690387095
   Building Type: water
-Orl√≠k Match 3: 50.219376100000005, 14.311447257631574
+OrlÌk Match 3: 50.219376100000005, 14.311447257631574
   Building Type: water
-Orl√≠k Match 4: 50.337750650000004, 15.050748351965838
+OrlÌk Match 4: 50.337750650000004, 15.050748351965838
   Building Type: water
-Coordinates for Kam√Ωk not found
+Coordinates for Kam˝k not found
 Coordinates for Slapy not found
-Coordinates for ≈†tƒõchovice not found
+Coordinates for ätÏchovice not found
 Coordinates for Nechranice not found
 Coordinates for Hracholusky not found
-Coordinates for ƒåesk√© √∫dol√≠ not found
-Coordinates for N√Ωrsko not found
-Coordinates for ≈†vihov not found
-Coordinates for Dlouh√© str√°nƒõ not found
-Coordinates for Dale≈°ice not found
-Coordinates for Nov√© Ml√Ωny not found
+»eskÈ ˙dolÌ Match 1: 49.71760605, 13.359927326507126
+  Building Type: dam
+Coordinates for N˝rsko not found
+Coordinates for ävihov not found
+Coordinates for DlouhÈ str·nÏ not found
+Coordinates for Daleöice not found
+Coordinates for NovÈ Ml˝ny not found
 Coordinates for Vranov not found
-Coordinates for Pastviny not found
-Coordinates for Slezsk√° Harta not found
-Coordinates for ≈†ance not found
-Brnƒõnsk√° p≈ôehrada Match 1: 49.252003, 16.484622335183925
+Pastviny Match 1: 50.07504495, 16.55970164834443
+  Building Type: dam
+Coordinates for Slezsk· Harta not found
+äance Match 1: 49.511249199999995, 18.41569778573863
+  Building Type: dam
+BrnÏnsk· p¯ehrada Match 1: 49.2324601, 16.51910370056818
+  Building Type: dam
+BrnÏnsk· p¯ehrada Match 2: 49.252003, 16.484622335183925
   Building Type: water
-ƒåern√© Match 1: 49.1794083, 13.182333278916797
+»ernÈ Match 1: 49.1794083, 13.182333278916797
   Building Type: water
-ƒåertovo Match 1: 49.1649655, 13.196990758319783
+»ertovo Match 1: 49.1649655, 13.196990758319783
   Building Type: water
-Pr√°≈°ilsk√© Match 1: 49.075287450000005, 13.399999655543777
+Pr·öilskÈ Match 1: 49.075287450000005, 13.399999655543777
   Building Type: water
-Ple≈°n√© Match 1: 48.776037650000006, 13.864736243310663
+PleönÈ Match 1: 48.776037650000006, 13.864736243310663
   Building Type: water
 Laka Match 1: 49.1105784, 13.327896908992603
   Building Type: water
-Coordinates for T≈ô√≠jezern√≠ sla≈• not found
-Coordinates for Chalupsk√° sla≈• not found
-Hromnick√© Match 1: 49.850450949999995, 13.445034993795012
+Coordinates for T¯ÌjezernÌ slaù not found
+Coordinates for Chalupsk· slaù not found
+HromnickÈ Match 1: 49.850450949999995, 13.445034993795012
   Building Type: water
-Odlezelsk√© Match 1: 50.01608325, 13.37309118797958
+OdlezelskÈ Match 1: 50.01608325, 13.37309118797958
   Building Type: water
 Otava Match 1: 49.2629341, 13.8548711
   Building Type: river
@@ -176,13 +181,219 @@ Otava Match 2: 49.2704124, 13.6211589
   Building Type: river
 Otava Match 3: 49.2732874, 13.628007
   Building Type: river
-√öslava Match 1: 49.4991427, 13.5133496
+⁄slava Match 1: 49.4991427, 13.5133496
   Building Type: river
-√öhlava Match 1: 49.4596949, 13.2701609
+⁄hlava Match 1: 49.4596949, 13.2701609
   Building Type: river
-M≈æe Match 1: 49.7676471, 12.9260672
+Mûe Match 1: 49.7676471, 12.9260672
   Building Type: river
 Berounka Match 1: 49.9719009, 13.7862543
   Building Type: river
 Berounka Match 2: 49.7816827, 13.4324357
   Building Type: river
+Labe Match 1: 50.5151357, 14.0763243
+  Building Type: river
+Labe Match 2: 50.6405568, 14.0486614
+  Building Type: river
+Labe Match 3: 50.3009425, 15.8777648
+  Building Type: river
+Labe Match 4: 50.4672731, 14.2363504
+  Building Type: river
+Labe Match 5: 50.2580299, 14.528894
+  Building Type: river
+⁄pa Match 1: 50.5628921, 15.9214815
+  Building Type: river
+⁄pa Match 2: 50.7076728, 15.803662
+  Building Type: river
+Metuje Match 1: 50.4145339, 16.1682945
+  Building Type: river
+Orlice Match 1: 50.197896, 15.9693805
+  Building Type: river
+Orlice Match 2: 49.9888713, 16.3990035
+  Building Type: river
+Tich· Orlice Match 1: 49.9888713, 16.3990035
+  Building Type: river
+Divok· Orlice Match 1: 50.0959807, 16.4065498
+  Building Type: river
+Chrudimka Match 1: 49.8592042, 15.8025735
+  Building Type: river
+Vltava Match 1: 49.3351337, 14.2970732
+  Building Type: river
+Oh¯e Match 1: 50.2907444, 13.0151862
+  Building Type: river
+BÌlina Match 1: 50.5267515, 13.7123925
+  Building Type: river
+Cidlina Match 1: 50.3140014, 15.4328319
+  Building Type: river
+Jizera Match 1: 50.5773947, 15.1405138
+  Building Type: river
+PlouËnice Match 1: 50.6743914, 14.5976669
+  Building Type: river
+Kamenice Match 1: 50.7384373, 15.2716086
+  Building Type: river
+Kamenice Match 2: 50.8002427, 14.4092992
+  Building Type: river
+Vltava Match 1: 49.3351337, 14.2970732
+  Building Type: river
+Vydra Match 1: 49.0681517, 13.508316
+  Building Type: river
+K¯emeln· Match 1: 49.1444058, 13.3760179
+  Building Type: river
+Blanice Match 1: 49.6444981, 14.8583609
+  Building Type: river
+Blanice Match 2: 49.0743772, 14.0503281
+  Building Type: river
+Blanice Match 3: 48.9971773, 13.9168776
+  Building Type: river
+VolyÚka Match 1: 49.114527, 13.8337173
+  Building Type: river
+VolyÚka Match 2: 49.2104109, 13.8836259
+  Building Type: river
+Berounka Match 1: 49.9719009, 13.7862543
+  Building Type: river
+Berounka Match 2: 49.7816827, 13.4324357
+  Building Type: river
+⁄hlava Match 1: 49.4596949, 13.2701609
+  Building Type: river
+⁄slava Match 1: 49.4991427, 13.5133496
+  Building Type: river
+Radbuza Match 1: 49.5429918, 13.0474448
+  Building Type: river
+Mûe Match 1: 49.7676471, 12.9260672
+  Building Type: river
+St¯ela Match 1: 50.0363791, 13.2814435
+  Building Type: river
+Malöe Match 1: 48.7376492, 14.5112165
+  Building Type: river
+Malöe Match 2: 48.892287, 14.5011213
+  Building Type: river
+Luûnice Match 1: 48.8421324, 14.9217083
+  Building Type: river
+Luûnice Match 2: 48.8170799, 14.9340679
+  Building Type: river
+Luûnice Match 3: 48.854606, 14.906604
+  Building Type: river
+Luûnice Match 4: 48.8145952, 14.9291114
+  Building Type: river
+Neû·rka Match 1: 49.0842827, 14.8718878
+  Building Type: river
+S·zava Match 1: 49.7195764, 15.2000752
+  Building Type: river
+éelivka Match 1: 49.5438399, 15.2036881
+  Building Type: river
+Coordinates for Odra not found
+Coordinates for Ostravavice not found
+Olöe Match 1: 49.7015957, 18.636267
+  Building Type: river
+Opava Match 1: 50.0030222, 17.8072951
+  Building Type: river
+Coordinates for Luûick· Nisa not found
+Morava Match 1: 49.3597062, 17.3094202
+  Building Type: river
+Morava Match 2: 50.0616899, 16.9268927
+  Building Type: river
+Morava Match 3: 49.5797061, 17.2630928
+  Building Type: river
+Morava Match 4: 49.6738249, 17.1821701
+  Building Type: river
+Desn· Match 1: 50.031511, 17.0599634
+  Building Type: river
+Desn· Match 2: 50.7459612, 15.310959
+  Building Type: river
+BeËva Match 1: 49.5221053, 17.6228575
+  Building Type: river
+BeËva Match 2: 49.3202334, 18.1435267
+  Building Type: river
+BeËva Match 3: 49.4585755, 18.1805178
+  Building Type: river
+Olöava Match 1: 49.0282351, 17.669996
+  Building Type: river
+Han· Match 1: 49.3296391, 17.1594114
+  Building Type: river
+Dyje Match 1: 48.8319746, 16.1468898
+  Building Type: river
+Dyje Match 2: 48.7954268, 16.2003605
+  Building Type: river
+Jihlava Match 1: 49.212749, 15.9437585
+  Building Type: river
+Oslava Match 1: 49.2869417, 16.0785713
+  Building Type: river
+Svitava Match 1: 49.482763, 16.6080544
+  Building Type: river
+Svratka Match 1: 49.4007294, 16.3644314
+  Building Type: river
+Roûmberk Match 1: 49.0401358, 14.788900064039733
+  Building Type: water
+Bezdrev Match 1: 49.04756425, 14.386603750718834
+  Building Type: water
+Deht·¯ Match 1: 49.00466045, 14.29339928082949
+  Building Type: water
+Horusick˝ rybnÌk Match 1: 49.15703205, 14.672324468798493
+  Building Type: water
+SvÏt Match 1: 48.99387455, 14.747971103950288
+  Building Type: water
+SvÏt Match 2: 49.551112, 14.37168823430029
+  Building Type: water
+Jord·n Match 1: 49.42373335, 14.663657946983594
+  Building Type: water
+Jord·n Match 2: 49.183225, 14.11554634894427
+  Building Type: water
+Jord·n Match 3: 49.2007275, 13.934384173037973
+  Building Type: water
+Jord·n Match 4: 50.16371055, 15.464895278964498
+  Building Type: water
+Coordinates for éehÚsk˝ rybnÌk not found
+M·chovo jezero Match 1: 50.58319005, 14.65063948835726
+  Building Type: water
+VelkÈ D·¯ko Match 1: 49.63945835, 15.895662392447324
+  Building Type: water
+Coordinates for Lipno not found
+Coordinates for HnÏvkovice not found
+Coordinates for Ko¯ensko not found
+OrlÌk Match 1: 49.1111478, 15.406949892632378
+  Building Type: water
+OrlÌk Match 2: 49.24435525, 16.401814690387095
+  Building Type: water
+OrlÌk Match 3: 50.219376100000005, 14.311447257631574
+  Building Type: water
+OrlÌk Match 4: 50.337750650000004, 15.050748351965838
+  Building Type: water
+Coordinates for Kam˝k not found
+Coordinates for Slapy not found
+Coordinates for ätÏchovice not found
+Coordinates for Nechranice not found
+Coordinates for Hracholustky not found
+»eskÈ ˙dolÌ Match 1: 49.71760605, 13.359927326507126
+  Building Type: dam
+Coordinates for N˝rsko not found
+Coordinates for ävihov not found
+Coordinates for DlouhÈ str·nÏ not found
+Coordinates for Daleöice not found
+Coordinates for NovÈ Ml˝ny not found
+Coordinates for Vranov not found
+Pastviny Match 1: 50.07504495, 16.55970164834443
+  Building Type: dam
+Coordinates for Slezsk· Harta not found
+äance Match 1: 49.511249199999995, 18.41569778573863
+  Building Type: dam
+BrnÏnsk· p¯ehrada Match 1: 49.2324601, 16.51910370056818
+  Building Type: dam
+BrnÏnsk· p¯ehrada Match 2: 49.252003, 16.484622335183925
+  Building Type: water
+»ernÈ Match 1: 49.1794083, 13.182333278916797
+  Building Type: water
+»ertovo Match 1: 49.1649655, 13.196990758319783
+  Building Type: water
+Pr·öilskÈ Match 1: 49.075287450000005, 13.399999655543777
+  Building Type: water
+PleönÈ Match 1: 48.776037650000006, 13.864736243310663
+  Building Type: water
+Laka Match 1: 49.1105784, 13.327896908992603
+  Building Type: water
+Coordinates for T¯ÌjezernÌ slaù not found
+Coordinates for Chalupsk· slaù not found
+HromnickÈ Match 1: 49.850450949999995, 13.445034993795012
+  Building Type: water
+OdlezelskÈ Match 1: 50.01608325, 13.37309118797958
+  Building Type: water
+Coordinates for ävarcenbersk˝ kan·l not found
