@@ -1,0 +1,26 @@
+Vltava, Match 1: 49.3351337, 14.2970732
+  Building Type: river
+Vltava, Match 2: 48.96849865, 14.46727304207438
+  Building Type: water
+Vltava, Match 3: 48.9275018, 14.438433906647655
+  Building Type: water
+Vltava, Match 4: 49.01480615, 14.451185910420033
+  Building Type: water
+Vltava, Match 5: 48.9553874, 14.459595509860744
+  Building Type: water
+Otava, Match 1: 49.2629341, 13.8548711
+  Building Type: river
+Otava, Match 2: 49.735363, 16.0340559
+  Building Type: peak
+Otava, Match 3: 49.2704124, 13.6211589
+  Building Type: river
+Otava, Match 4: 49.2732874, 13.628007
+  Building Type: river
+Otava, Match 5: 49.2725997, 13.8239792
+  Building Type: stream
+Hracholusky Match 1: 50.0030822, 13.7736888
+  Building Type: administrative
+Hracholusky Match 2: 49.058595, 14.0883843
+  Building Type: administrative
+Hracholusky Match 3: 49.7817528, 13.1606626
+  Building Type: village
