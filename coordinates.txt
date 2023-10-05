@@ -1,26 +1,188 @@
-Vltava, Match 1: 49.3351337, 14.2970732
+Labe Match 1: 50.5151357, 14.0763243
   Building Type: river
-Vltava, Match 2: 48.96849865, 14.46727304207438
-  Building Type: water
-Vltava, Match 3: 48.9275018, 14.438433906647655
-  Building Type: water
-Vltava, Match 4: 49.01480615, 14.451185910420033
-  Building Type: water
-Vltava, Match 5: 48.9553874, 14.459595509860744
-  Building Type: water
-Otava, Match 1: 49.2629341, 13.8548711
+Labe Match 2: 50.6405568, 14.0486614
   Building Type: river
-Otava, Match 2: 49.735363, 16.0340559
-  Building Type: peak
-Otava, Match 3: 49.2704124, 13.6211589
+Labe Match 3: 50.3009425, 15.8777648
   Building Type: river
-Otava, Match 4: 49.2732874, 13.628007
+Labe Match 4: 50.4672731, 14.2363504
   Building Type: river
-Otava, Match 5: 49.2725997, 13.8239792
-  Building Type: stream
-Hracholusky Match 1: 50.0030822, 13.7736888
-  Building Type: administrative
-Hracholusky Match 2: 49.058595, 14.0883843
-  Building Type: administrative
-Hracholusky Match 3: 49.7817528, 13.1606626
-  Building Type: village
+Labe Match 5: 50.2580299, 14.528894
+  Building Type: river
+Úpa Match 1: 50.5628921, 15.9214815
+  Building Type: river
+Úpa Match 2: 50.7076728, 15.803662
+  Building Type: river
+Metuje Match 1: 50.4145339, 16.1682945
+  Building Type: river
+Orlice Match 1: 50.197896, 15.9693805
+  Building Type: river
+Orlice Match 2: 49.9888713, 16.3990035
+  Building Type: river
+Coordinates for Tichá not found
+Coordinates for Divoká not found
+Chrudimka Match 1: 49.8592042, 15.8025735
+  Building Type: river
+Vltava Match 1: 49.3351337, 14.2970732
+  Building Type: river
+Ohře Match 1: 50.2907444, 13.0151862
+  Building Type: river
+Bílina Match 1: 50.5267515, 13.7123925
+  Building Type: river
+Cidlina Match 1: 50.3140014, 15.4328319
+  Building Type: river
+Jizera Match 1: 50.5773947, 15.1405138
+  Building Type: river
+Ploučnice Match 1: 50.6743914, 14.5976669
+  Building Type: river
+Kamenice Match 1: 50.7384373, 15.2716086
+  Building Type: river
+Kamenice Match 2: 50.8002427, 14.4092992
+  Building Type: river
+Malše Match 1: 48.7376492, 14.5112165
+  Building Type: river
+Malše Match 2: 48.892287, 14.5011213
+  Building Type: river
+Lužnice Match 1: 48.8421324, 14.9217083
+  Building Type: river
+Lužnice Match 2: 48.8170799, 14.9340679
+  Building Type: river
+Lužnice Match 3: 48.854606, 14.906604
+  Building Type: river
+Lužnice Match 4: 48.8145952, 14.9291114
+  Building Type: river
+Nežárka Match 1: 49.0842827, 14.8718878
+  Building Type: river
+Sázava Match 1: 49.7195764, 15.2000752
+  Building Type: river
+Želivka Match 1: 49.5438399, 15.2036881
+  Building Type: river
+Coordinates for Odra not found
+Ostravice Match 1: 49.6446796, 18.3655333
+  Building Type: river
+Olše Match 1: 49.7015957, 18.636267
+  Building Type: river
+Opava Match 1: 50.0030222, 17.8072951
+  Building Type: river
+Moravice Match 1: 49.8805394, 17.5951314
+  Building Type: river
+Coordinates for Lužická Nisa not found
+Morava Match 1: 49.3597062, 17.3094202
+  Building Type: river
+Morava Match 2: 50.0616899, 16.9268927
+  Building Type: river
+Morava Match 3: 49.5797061, 17.2630928
+  Building Type: river
+Morava Match 4: 49.6738249, 17.1821701
+  Building Type: river
+Desná Match 1: 50.031511, 17.0599634
+  Building Type: river
+Desná Match 2: 50.7459612, 15.310959
+  Building Type: river
+Bečva Match 1: 49.5221053, 17.6228575
+  Building Type: river
+Bečva Match 2: 49.3202334, 18.1435267
+  Building Type: river
+Bečva Match 3: 49.4585755, 18.1805178
+  Building Type: river
+Olšava Match 1: 49.0282351, 17.669996
+  Building Type: river
+Haná Match 1: 49.3296391, 17.1594114
+  Building Type: river
+Dyje Match 1: 48.8319746, 16.1468898
+  Building Type: river
+Dyje Match 2: 48.7954268, 16.2003605
+  Building Type: river
+Jihlava Match 1: 49.212749, 15.9437585
+  Building Type: river
+Oslava Match 1: 49.2869417, 16.0785713
+  Building Type: river
+Svitava Match 1: 49.482763, 16.6080544
+  Building Type: river
+Svratka Match 1: 49.4007294, 16.3644314
+  Building Type: river
+Rožmberk Match 1: 49.0401358, 14.788900064039733
+  Building Type: water
+Bezdrev Match 1: 49.04756425, 14.386603750718834
+  Building Type: water
+Dehtář Match 1: 49.00466045, 14.29339928082949
+  Building Type: water
+Horusický rybník Match 1: 49.15703205, 14.672324468798493
+  Building Type: water
+Svět Match 1: 48.99387455, 14.747971103950288
+  Building Type: water
+Svět Match 2: 49.551112, 14.37168823430029
+  Building Type: water
+Jordán Match 1: 49.42373335, 14.663657946983594
+  Building Type: water
+Jordán Match 2: 49.183225, 14.11554634894427
+  Building Type: water
+Jordán Match 3: 49.2007275, 13.934384173037973
+  Building Type: water
+Jordán Match 4: 50.16371055, 15.464895278964498
+  Building Type: water
+Žehuňský rybník Match 1: 50.1441916, 15.3402090268136
+  Building Type: water
+Máchovo jezero Match 1: 50.58319005, 14.65063948835726
+  Building Type: water
+Velké Dářko Match 1: 49.63945835, 15.895662392447324
+  Building Type: water
+Coordinates for Lipno not found
+Coordinates for Hněvkovice not found
+Coordinates for Kořensko not found
+Orlík Match 1: 49.1111478, 15.406949892632378
+  Building Type: water
+Orlík Match 2: 49.24435525, 16.401814690387095
+  Building Type: water
+Orlík Match 3: 50.219376100000005, 14.311447257631574
+  Building Type: water
+Orlík Match 4: 50.337750650000004, 15.050748351965838
+  Building Type: water
+Coordinates for Kamýk not found
+Coordinates for Slapy not found
+Coordinates for Štěchovice not found
+Coordinates for Nechranice not found
+Coordinates for Hracholusky not found
+Coordinates for České údolí not found
+Coordinates for Nýrsko not found
+Coordinates for Švihov not found
+Coordinates for Dlouhé stráně not found
+Coordinates for Dalešice not found
+Coordinates for Nové Mlýny not found
+Coordinates for Vranov not found
+Coordinates for Pastviny not found
+Coordinates for Slezská Harta not found
+Coordinates for Šance not found
+Brněnská přehrada Match 1: 49.252003, 16.484622335183925
+  Building Type: water
+Černé Match 1: 49.1794083, 13.182333278916797
+  Building Type: water
+Čertovo Match 1: 49.1649655, 13.196990758319783
+  Building Type: water
+Prášilské Match 1: 49.075287450000005, 13.399999655543777
+  Building Type: water
+Plešné Match 1: 48.776037650000006, 13.864736243310663
+  Building Type: water
+Laka Match 1: 49.1105784, 13.327896908992603
+  Building Type: water
+Coordinates for Tříjezerní slať not found
+Coordinates for Chalupská slať not found
+Hromnické Match 1: 49.850450949999995, 13.445034993795012
+  Building Type: water
+Odlezelské Match 1: 50.01608325, 13.37309118797958
+  Building Type: water
+Otava Match 1: 49.2629341, 13.8548711
+  Building Type: river
+Otava Match 2: 49.2704124, 13.6211589
+  Building Type: river
+Otava Match 3: 49.2732874, 13.628007
+  Building Type: river
+Úslava Match 1: 49.4991427, 13.5133496
+  Building Type: river
+Úhlava Match 1: 49.4596949, 13.2701609
+  Building Type: river
+Mže Match 1: 49.7676471, 12.9260672
+  Building Type: river
+Berounka Match 1: 49.9719009, 13.7862543
+  Building Type: river
+Berounka Match 2: 49.7816827, 13.4324357
+  Building Type: river
