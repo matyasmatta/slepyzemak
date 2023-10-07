@@ -105,7 +105,8 @@ def process_csv(file_path):
             'přehrada': ['reservoir', 'water', 'dam'],
             'rybník': ['reservoir', 'water', 'lake'],
             'hora': ['mountain', 'peak', 'Hora'],
-            'pohoří': ['topo', 'range', 'mountain_range', 'Pohoří', 'Hora']
+            'pohoří': ['topo', 'range', 'mountain_range', 'Pohoří', 'Hora'],
+            None: []
             # Add more mappings as needed
         }
         result = mapping.get(czech_description, [])
@@ -222,9 +223,7 @@ def main():
     with open("malfunctions.json", "w", encoding="utf8") as json_file:
         json.dump(malfunctional_data, json_file, indent=4, ensure_ascii=False)
 
-def new_main():
-    input_file = 'places.csv'  # Replace with your input file name
-    output_file = 'coordinates.txt'  # Replace with your output file name
+def new_main(input_file = 'places.csv', output_json = 'places.json', malfunction_json = None, hard_description = None):
     data, malfunctional_data = dict(), dict()
 
 
@@ -241,17 +240,21 @@ def new_main():
                 data[place_name]["type"] =  {}
                 data[place_name]["latitude"] = coordinates[0]
                 data[place_name]["longitude"] = coordinates[1]
-                data[place_name]["type"] = place["description"]
+                if hard_description is None: 
+                    data[place_name]["type"] = place["description"]
+                else:
+                    data[place_name]["type"] = hard_description
             except:
                 malfunctional_data[place_name] = {}
                 malfunctional_data[place_name] = "Place not found"
             progress_bar.update(1)
     
     progress_bar.close()
-    with open("coordinates.json", "w", encoding="utf8") as json_file:
+    with open(output_json, "w", encoding="utf8") as json_file:
         json.dump(data, json_file, indent=4, ensure_ascii=False)
-    with open("malfunctions.json", "w", encoding="utf8") as json_file:
-        json.dump(malfunctional_data, json_file, indent=4, ensure_ascii=False)
+    if malfunction_json: 
+        with open("malfunctions.json", "w", encoding="utf8") as json_file:
+            json.dump(malfunctional_data, json_file, indent=4, ensure_ascii=False)
 
 # Initialise logger for any use
 global logger 
