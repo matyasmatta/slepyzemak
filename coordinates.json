@@ -1,132 +1,424 @@
 {
     "Sněžka": {
-        "latitude": 50.73597,
-        "longitude": 15.73966,
-        "type": "Hora"
-    },
-    "Smrk": {
-        "latitude": 50.88915,
-        "longitude": 15.2732,
-        "type": "Hora"
+        "latitude": 50.7360066,
+        "longitude": 15.7396608,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Lužické hory": {
-        "latitude": 50.87019,
-        "longitude": 14.50986,
-        "type": "Hora"
+        "latitude": 50.8454303,
+        "longitude": 14.6160047,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
     },
     "Klínovec": {
-        "latitude": 50.39647,
-        "longitude": 12.96761,
-        "type": "Hora"
+        "latitude": 50.3965143,
+        "longitude": 12.9676136,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Smrčiny": {
-        "latitude": 49.73341,
-        "longitude": 12.63037,
-        "type": "Hora"
+        "latitude": 50.0959975,
+        "longitude": 12.0515728,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
     },
     "Čerchov": {
-        "latitude": 49.38336,
-        "longitude": 12.78371,
-        "type": "Hora"
+        "latitude": 49.3833982,
+        "longitude": 12.7837071,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Přimda": {
-        "latitude": 49.68274,
-        "longitude": 12.66831,
-        "type": "Hora"
+        "latitude": 49.6695302,
+        "longitude": 12.6798863,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Plechý": {
-        "latitude": 48.7713,
-        "longitude": 13.85729,
-        "type": "Hora"
+        "latitude": 48.7713413,
+        "longitude": 13.8572911,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Boubín": {
-        "latitude": 48.99127,
+        "latitude": 48.9913081,
         "longitude": 13.8169,
-        "type": "Hora"
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Velká Mokrůvka": {
-        "latitude": 48.95502,
-        "longitude": 13.50632,
-        "type": "Hora"
+        "latitude": 48.955067,
+        "longitude": 13.5063223,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Novohradské hory": {
-        "latitude": 48.6532992,
-        "longitude": 14.6997415,
-        "type": "mountain_range"
+        "latitude": 48.6922396,
+        "longitude": 14.7021552,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Bílé Karpaty": {
+        "latitude": 48.971951,
+        "longitude": 17.8048099,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
     },
     "Lysá hora": {
-        "latitude": 49.54597,
-        "longitude": 18.44733,
-        "type": "Hora"
+        "latitude": 49.5460132,
+        "longitude": 18.4473267,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
+    },
+    "Javorníky": {
+        "latitude": 49.2617476,
+        "longitude": 18.4199376,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
     },
     "Praděd": {
-        "latitude": 50.08308,
-        "longitude": 17.23098,
-        "type": "Hora"
+        "latitude": 50.0831177,
+        "longitude": 17.2309767,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Nízký Jeseník": {
-        "latitude": 49.8372663,
-        "longitude": 17.3191286,
-        "type": "mountain_range"
+        "latitude": 49.8332479,
+        "longitude": 17.7007335,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
     },
     "Rychlebské hory": {
-        "latitude": 50.2973567,
-        "longitude": 17.0170611,
-        "type": "mountain_range"
-    },
-    "Králický Sněžník": {
-        "latitude": 50.2075,
-        "longitude": 16.84756,
-        "type": "Hora"
+        "latitude": 50.3183495,
+        "longitude": 17.0579582,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
     },
     "Velká Deštná": {
-        "latitude": 50.30132,
-        "longitude": 16.39765,
-        "type": "Hora"
+        "latitude": 50.3013586,
+        "longitude": 16.3976464,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Javořice": {
-        "latitude": 49.22098,
-        "longitude": 15.33955,
-        "type": "Hora"
+        "latitude": 49.2210198,
+        "longitude": 15.3395544,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Milešovka": {
-        "latitude": 50.5549,
-        "longitude": 13.93109,
-        "type": "Hora"
+        "latitude": 50.5549459,
+        "longitude": 13.9310911,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
+    },
+    "Plzeňská pahorkatina": {
+        "latitude": 49.7921806,
+        "longitude": 13.3247872,
+        "type": [
+            "pahorkatina"
+        ]
+    },
+    "Středočeská pahorkatina": {
+        "latitude": 49.5775833,
+        "longitude": 14.2270529,
+        "type": [
+            "pahorkatina"
+        ]
     },
     "Tok": {
-        "latitude": 49.70433,
-        "longitude": 13.87654,
-        "type": "Hora"
+        "latitude": 49.7043736,
+        "longitude": 13.8765422,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Železné hory": {
-        "latitude": 49.73127,
-        "longitude": 15.68781,
-        "type": "Hora"
+        "latitude": 49.8758987,
+        "longitude": 15.7240453,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Drahanská vrchovina": {
+        "latitude": 49.4347489,
+        "longitude": 16.8102528,
+        "type": [
+            "pahorkatina"
+        ]
     },
     "Říp": {
-        "latitude": 50.38653,
-        "longitude": 14.28962,
-        "type": "Hora"
+        "latitude": 50.3865743,
+        "longitude": 14.2896225,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Chřiby": {
-        "latitude": 49.0934607,
-        "longitude": 17.1705901,
-        "type": "mountain_range"
+        "latitude": 49.1668888,
+        "longitude": 17.3105458,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
     },
     "Devět skal": {
-        "latitude": 49.67077,
-        "longitude": 16.03214,
-        "type": "Hora"
+        "latitude": 49.6708075,
+        "longitude": 16.0321439,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora"
+        ]
     },
     "Slavkovský les": {
-        "latitude": 50.04297,
-        "longitude": 12.75668,
-        "type": "Hora"
+        "latitude": 50.1186184,
+        "longitude": 12.7924184,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
     },
     "Doupovské hory": {
-        "latitude": 50.2737271,
-        "longitude": 13.1018233,
-        "type": "mountain_range"
+        "latitude": 50.2600437,
+        "longitude": 13.1644884,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Hornomoravský úval": {
+        "latitude": 49.5437508,
+        "longitude": 17.2895294,
+        "type": [
+            "nížina"
+        ]
+    },
+    "Dolnomoravský úval": {
+        "latitude": 48.9024539,
+        "longitude": 17.0785086,
+        "type": [
+            "nížina"
+        ]
+    },
+    "Dyjsko-svratecký úval": {
+        "latitude": 48.9899082,
+        "longitude": 16.4253404,
+        "type": [
+            "nížina"
+        ]
+    },
+    "Polabí": {
+        "latitude": 50.2716347,
+        "longitude": 15.0091548,
+        "type": [
+            "nížina"
+        ]
+    },
+    "Třeboňská pánev": {
+        "latitude": 49.0296589,
+        "longitude": 14.7087984,
+        "type": [
+            "pánev"
+        ]
+    },
+    "České Budějovice": {
+        "latitude": 48.9779982,
+        "longitude": 14.4910533,
+        "type": [
+            "pánev"
+        ]
+    },
+    "Sokolovská pánev": {
+        "latitude": 50.2242479,
+        "longitude": 12.7460698,
+        "type": [
+            "pánev"
+        ]
+    },
+    "Chebská pánev": {
+        "latitude": 50.1307443,
+        "longitude": 12.3910104,
+        "type": [
+            "pánev"
+        ]
+    },
+    "Mostecká pánev": {
+        "latitude": 50.490964,
+        "longitude": 13.6417419,
+        "type": [
+            "pánev"
+        ]
+    },
+    "Česká tabule": {
+        "latitude": 50.2051841,
+        "longitude": 15.1040413,
+        "type": [
+            "nížina"
+        ]
+    },
+    "Boskovická brázda": {
+        "latitude": 49.3722389,
+        "longitude": 16.5094545,
+        "type": [
+            "nížina"
+        ]
+    },
+    "Moravská brána": {
+        "latitude": 49.6346725,
+        "longitude": 17.8456311,
+        "type": [
+            "brána"
+        ]
+    },
+    "Vyškovská brána": {
+        "latitude": 49.2934914,
+        "longitude": 17.0041671,
+        "type": [
+            "brána"
+        ]
+    },
+    "Macocha": {
+        "latitude": 49.3732782,
+        "longitude": 16.7298156,
+        "type": [
+            "propast"
+        ]
+    },
+    "Hranická propast": {
+        "latitude": 49.5323186,
+        "longitude": 17.7506513,
+        "type": [
+            "propast"
+        ]
+    },
+    "Český ráj": {
+        "latitude": 50.556634,
+        "longitude": 15.181248,
+        "type": [
+            "chráněná krajinná oblast"
+        ]
+    },
+    "Labské pískovce": {
+        "latitude": 50.8777894,
+        "longitude": 14.2328887,
+        "type": [
+            "chráněná krajinná oblast"
+        ]
     }
 }
