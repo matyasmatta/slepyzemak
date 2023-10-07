@@ -5,6 +5,7 @@ from geopy.geocoders import Nominatim
 import json
 import csv
 from tqdm import tqdm
+import requests
 
 def process_csv(file_path):
     places_data = []
@@ -15,6 +16,8 @@ def process_csv(file_path):
             'jezero': ['lake', 'water'],
             'přehrada': ['reservoir', 'water', 'dam'],
             'rybník': ['reservoir', 'water', 'lake'],
+            'hora': ['mountain', 'peak', 'Hora'],
+            'pohoří': ['topo', 'range', 'mountain_range', 'Pohoří', 'Hora']
             # Add more mappings as needed
         }
         return mapping.get(czech_description, [])
@@ -29,7 +32,7 @@ def process_csv(file_path):
 
     return places_data
 
-def get_location_details(place_name, permissible_types=["river"]):
+def openstreetmap_get(place_name, permissible_types=["river"]):
     geolocator = Nominatim(user_agent="convert.py")
     locations = geolocator.geocode(place_name, exactly_one=False, country_codes="cz")
 
@@ -48,10 +51,40 @@ def get_location_details(place_name, permissible_types=["river"]):
     else:
         return None
 
+def mapycz_get(place_name, permissible_types):
+    """Fetches the coordinates of a place from the mapy.cz REST API.
+
+    Args:
+        place_name: The name of the place.
+
+    Returns:
+        A tuple of (latitude, longitude) or None if the place is not found.
+    """
+    API_KEY = "GjRkRPpn-ganixbQqKBQq-tSLtCJ52woaGrg698ZwMI"
+    url = f"https://api.mapy.cz/v1/geocode?query={place_name}&lang=cs&limit=5&type=regional&type=poi&apikey={API_KEY}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        locations = json.loads(response.content)
+        new_locations = list()
+        try:
+            for item in locations["items"]:
+                if item["label"] in permissible_types:
+                    new_locations.append(item)
+                else:
+                    pass
+        except:
+            return None
+        
+        if new_locations:
+            return new_locations
+        else:
+            return None
+        return None
+
 def main():
     input_file = 'places.csv'  # Replace with your input file name
     output_file = 'coordinates.txt'  # Replace with your output file name
-    data = dict()
+    data, malfunctional_data = dict(), dict()
 
 
     places = process_csv(input_file)
@@ -62,27 +95,42 @@ def main():
             progress_bar.update()
             permissible_type = place["description"]
             place = place["place_name"]
-            locations = get_location_details(place, permissible_type)
+            locations = mapycz_get(place, permissible_type)
+            method = "mapy.cz"
 
-            if locations is not None:
+            def append(locations, data):
                 for idx, location in enumerate(locations):
                     if not place in data:
                         data[place] = {}
                         data[place]["latitude"] =  {}
-                        data[place]["longitude"] =  location.longitude
-                        data[place]["latitude"] =  location.latitude
+                        data[place]["longitude"] =  {}
                         data[place]["type"] =  {}
-                        data[place]["type"] =  location.raw["type"]
-                    # Extract additional information
-                    building_type = location.raw.get('type', 'N/A')
-                    f.write(f"{place} Match {idx + 1}: {location.latitude}, {location.longitude}\n")
-                    f.write(f"  Building Type: {building_type}\n")
-                    # You can access more details from the 'location.raw' dictionary
+                        if method == "mapy.cz":
+                            data[place]["latitude"] = location["position"]["lat"]
+                            data[place]["longitude"] = location["position"]["lon"]
+                            data[place]["type"] = location["label"]
+                        if method == "osm":
+                            data[place]["latitude"] = location.latitude
+                            data[place]["longitude"] = location.longitude
+                            data[place]["type"] = location.raw["type"]
+                return data
+
+            if locations is not None:
+                data = append(locations, data)
+            
+            locations = openstreetmap_get(place, permissible_type)
+            method = "osm"
+            if locations is not None:
+                data = append(locations, data)
             else:
+                malfunctional_data[place] = {}
+                malfunctional_data[place] = "Place not found"
                 f.write(f"Coordinates for {place} not found\n")
     progress_bar.close()
     with open("coordinates.json", "w", encoding="utf8") as json_file:
         json.dump(data, json_file, indent=4, ensure_ascii=False)
+    with open("malfunctions.json", "w", encoding="utf8") as json_file:
+        json.dump(malfunctional_data, json_file, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":
