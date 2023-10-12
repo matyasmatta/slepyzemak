@@ -16,6 +16,7 @@ from utils import Logger
 from urllib.parse import urlparse, parse_qs
 import re
 import logging
+import time
 
 class SeleniumMethods:
     def __init__(self, browser="Chrome"):
@@ -36,6 +37,7 @@ class SeleniumMethods:
         # create runtime window
         options = Options()
         options.headless = True
+        options.add_argument("user-agent=Chrome/80.0.3987.132")
         options.add_argument("--window-size=1920,1200")
         options.add_argument("--allow-mixed-content")
         options.add_argument('log-level=3')
@@ -53,7 +55,8 @@ class SeleniumMethods:
         try:
             # Returns coordinates in a tuple
             self.driver.get(f"https://mapy.cz/turisticka?q={place}")
-            WebDriverWait(self.driver, 10).until(EC.url_contains("x"))
+            start_time = time.time()
+            WebDriverWait(self.driver, 5).until(EC.url_contains("x"))
 
             current_url = self.driver.current_url
             self.driver.implicitly_wait(1)
@@ -65,9 +68,15 @@ class SeleniumMethods:
 
             return (float(y_coordinate), float(x_coordinate))
         except Exception as e:
-            error = f"There was an error in the SeleniumMethods.mapy() module, raw as follows {e}"
-            logger.write("error", error)
-            raise Exception(error)
+            end_time = time.time()
+            if end_time - start_time > 3:
+                error = f"There was a TimeoutError in the SeleniumMethods.mapy() module, raw as follows {e}, item {place}"
+                logger.write("error", error)
+                return (float(0), float(0))
+            else:
+                error = f"There was an unknown error in the SeleniumMethods.mapy() module, raw as follows {e}"
+                logger.write("error", error)
+                raise Exception(error)
     
     def google_maps(self, place):
         self.driver.get(f"https://www.google.com/maps/place/{place}/")
@@ -260,7 +269,7 @@ def new_main(input_file = 'places.csv', output_json = 'places.json', malfunction
 global logger 
 logger = Logger()
 if __name__ == "__main__":
-    new_main()
+    new_main(input_file="missing_places.csv", output_json="missing.json")
 
 
 

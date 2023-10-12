@@ -1,0 +1,117 @@
+{
+    "Krkonoše": {
+        "latitude": 50.711402,
+        "longitude": 15.6303082,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Jizerské hory": {
+        "latitude": 50.8083578,
+        "longitude": 15.1664429,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Smrk": {
+        "latitude": 50.8891939,
+        "longitude": 15.2731978,
+        "type": [
+            "hora",
+            "mountain",
+            "peak",
+            "Hora",
+            1124
+        ]
+    },
+    "Krušné hory": {
+        "latitude": 50.5152714,
+        "longitude": 13.2194227,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Český les": {
+        "latitude": 49.7137926,
+        "longitude": 12.6250237,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Šumava": {
+        "latitude": 48.9468082,
+        "longitude": 13.6942374,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Moravskoslezské Beskydy": {
+        "latitude": 49.5315356,
+        "longitude": 18.3871356,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Hrubý Jeseník": {
+        "latitude": 50.0975131,
+        "longitude": 17.2200863,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora"
+        ]
+    },
+    "Králický Sněžník": {
+        "latitude": 50.2075412,
+        "longitude": 16.8475581,
+        "type": [
+            "pohoří",
+            "topo",
+            "range",
+            "mountain_range",
+            "Pohoří",
+            "Hora",
+            1426
+        ]
+    },
+    "Českomoravská vrchovina": {
+        "latitude": 49.4494315,
+        "longitude": 15.6561868,
+        "type": [
+            "vrchovina"
+        ]
+    }
+}

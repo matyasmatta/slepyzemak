@@ -25,3 +25,20 @@
 2023-10-07 19:25:39.903423 [ERROR]: There was an error in the SeleniumMethods.mapy() module, raw as follows 'NoneType' object is not subscriptable
 2023-10-07 19:26:48.445938 [ERROR]: There was an error in the SeleniumMethods.mapy() module, raw as follows Message: 
 
+2023-10-12 10:22:20.804968 [ERROR]: The webdriver failed to initialise: 'NoneType' object has no attribute 'split'
+2023-10-12 10:22:45.057716 [ERROR]: The webdriver failed to initialise: 'NoneType' object has no attribute 'split'
+2023-10-12 10:23:03.917742 [ERROR]: The webdriver failed to initialise: 'NoneType' object has no attribute 'split'
+2023-10-12 10:24:05.231435 [ERROR]: The webdriver failed to initialise: 'NoneType' object has no attribute 'split'
+2023-10-12 10:24:23.562842 [ERROR]: The webdriver failed to initialise: 'NoneType' object has no attribute 'split'
+2023-10-12 10:27:12.317644 [ERROR]: There was an error in the SeleniumMethods.mapy() module, raw as follows Message: 
+
+2023-10-12 10:27:34.634683 [ERROR]: There was an error in the SeleniumMethods.mapy() module, raw as follows Message: 
+
+2023-10-12 10:31:41.334654 [ERROR]: There was an error in the SeleniumMethods.mapy() module, raw as follows Message: 
+
+2023-10-12 10:31:59.384934 [ERROR]: There was an error in the SeleniumMethods.mapy() module, raw as follows Message: 
+
+2023-10-12 10:37:51.928190 [ERROR]: There was a TimeoutError in the SeleniumMethods.mapy() module, raw as follows Message: 
+, item Smrk
+2023-10-12 10:38:10.287918 [ERROR]: There was a TimeoutError in the SeleniumMethods.mapy() module, raw as follows Message: 
+, item Králický Snìžník
